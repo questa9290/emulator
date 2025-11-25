@@ -1,0 +1,47 @@
+          Ticks: 1098 | Client -> Server |  ID: 01   Length: 4
+          0  1  2  3  4  5  6  7   8  9  A  B  C  D  E  F
+          -- -- -- -- -- -- -- --  -- -- -- -- -- -- -- --
+00000000  01 00 00 7F                                       ...
+
+
+
+          Ticks: 1098 | Client -> Server |  ID: 80   Length: 62
+          [ACCOUNT CREDENTIALS HIDDEN]
+
+
+
+          Ticks: 1108 | Server -> Client |  ID: A8   Length: 46
+          0  1  2  3  4  5  6  7   8  9  A  B  C  D  E  F
+          -- -- -- -- -- -- -- --  -- -- -- -- -- -- -- --
+00000000  A8 00 2E 5D 00 01 00 00  4D 4C 20 54 65 73 74 00  ...]....ML Test.
+00000010  00 00 00 00 00 00 00 00  00 00 00 00 00 00 00 00  ................
+00000020  00 00 00 00 00 00 00 00  00 00 01 00 00 7F        .............
+
+
+
+          Ticks: 2649 | Client -> Server |  ID: A0   Length: 3
+          0  1  2  3  4  5  6  7   8  9  A  B  C  D  E  F
+          -- -- -- -- -- -- -- --  -- -- -- -- -- -- -- --
+00000000  A0 00 00                                          ...
+
+
+
+          Ticks: 2654 | Server -> Client |  ID: 8C   Length: 11
+          0  1  2  3  4  5  6  7   8  9  A  B  C  D  E  F
+          -- -- -- -- -- -- -- --  -- -- -- -- -- -- -- --
+00000000  8C 7F 00 00 01 17 58 00  00 00 00                 .....X....
+
+
+
+          Ticks: 2654 | Client -> Server |  ID: 00   Length: 4
+          0  1  2  3  4  5  6  7   8  9  A  B  C  D  E  F
+          -- -- -- -- -- -- -- --  -- -- -- -- -- -- -- --
+00000000  00 00 00 00                                       ....
+
+
+
+          Ticks: 2654 | Client -> Server |  ID: 91   Length: 65
+          [ACCOUNT CREDENTIALS HIDDEN]
+
+
+
