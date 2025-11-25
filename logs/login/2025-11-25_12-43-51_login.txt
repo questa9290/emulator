@@ -1,0 +1,19 @@
+[2025-11-25 12:41:35.682] [login_logger] [info] Login server logger initialized. Log file: C:/emulator/logs/login.log
+[2025-11-25 12:41:35.683] [login_logger] [info] Login server baslatiliyor, port=2593...
+[2025-11-25 12:41:35.683] [login_logger] [info] listening on port 2593
+[2025-11-25 12:42:10.370] [login_logger] [info] client connected: 127.0.0.1
+[2025-11-25 12:42:10.374] [login_logger] [info] received 4-byte login seed
+[2025-11-25 12:42:10.374] [login_logger] [info] seed(4-byte) (4 bytes): 01 00 00 7F 
+[2025-11-25 12:42:10.374] [login_logger] [info] packet id=0x80 (fixed login), payloadLen=61
+[2025-11-25 12:42:10.374] [login_logger] [info] payload(0x80) (61 bytes): 54 45 53 54 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 54 45 53 54 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 FF 
+[2025-11-25 12:42:10.375] [login_logger] [info] login 0x80: user='TEST' pass='TEST'
+[2025-11-25 12:42:10.375] [login_logger] [info] login OK for 'TEST' (plevel=7)
+[2025-11-25 12:42:10.375] [login_logger] [info] send 0xA8 (game server list) (46 bytes): A8 00 2E 5D 00 01 00 00 4D 4C 20 54 65 73 74 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 01 00 00 7F 
+[2025-11-25 12:42:10.375] [login_logger] [info] send 46 bytes
+[2025-11-25 12:42:11.920] [login_logger] [info] packet id=0xA0 (select server), payloadLen=2
+[2025-11-25 12:42:11.920] [login_logger] [info] payload (2 bytes): 00 00 
+[2025-11-25 12:42:11.920] [login_logger] [info] received 0xA0 (play server), payloadLen=2
+[2025-11-25 12:42:11.921] [login_logger] [info] handle_play_server: len=2
+[2025-11-25 12:42:11.921] [login_logger] [info] send 0x8C (game redirect) (11 bytes): 8C 7F 00 00 01 17 58 00 00 00 00 
+[2025-11-25 12:42:11.921] [login_logger] [info] send 11 bytes
+[2025-11-25 12:42:11.922] [login_logger] [info] header: connection closed
